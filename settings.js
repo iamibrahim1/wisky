@@ -5,15 +5,15 @@ const {
    english,
    spanyol
 } = require(`./language`)
-
-// Website Api (jgn di ganti tomlol)
-global.APIs = {
+global.ibrahim = ['TcjDtsMJ', 'kUF2aBjM', '2nlLuqfy', 'rErGxBzr', 'KMCJgIRH','m242ANUO', 'WoH9KRqY', 'qjOpwJIA', 'xsTFGsFc', 'wYBojGOu']
+global.keysxxx = ibrahim[Math.floor(ibrahim.length * Math.random())]
+ global.APIs = {
    alfa: 'https://api.zeeoneofc.my.id', //apabila link api eror, segera laporkan ke owner
 }
 
 // Free apikey (Apikey expired silahkan login terus ganti V12 dgn apikey lu)
 global.APIKeys = {
-   'https://api.zeeoneofc.my.id': 'V12', // 👉 login https://api.zeeoneofc.xyz to get apikey
+   'https://api.zeeoneofc.my.id': '${global.keysxxx}', // 👉 login https://api.zeeoneofc.xyz to get apikey
 }
 
 // setting 
@@ -26,35 +26,35 @@ global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 //language
 //Available in indonesia , english & spanyol 
 //You can request others language 
-global.language = indonesia //change indonesia to english if you don't understand the language used by the bot
+global.language = english //change indonesia to english if you don't understand the language used by the bot
 
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername = "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
+global.botname = "I𝚋𝚛𝚊𝚑𝚒𝚖 𝙱𝚘𝚝" //namabot kalian
+global.ownername = "᭄I𝚋𝚛𝚊𝚑𝚒𝚖ོ ×፝֟͜×" //nama kalian
 global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
-global.youtube = "https://youtube.com/@ChZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://s.id/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
-global.region = "Indonesia" //bebas
-global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['62887435047326'] //premium user
-global.owner = ["62887435047326", "622150996855"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "62887435047326" // nomor wa kalian
-global.ownernomerr = "+62887435047326" //nmr wa kalian
+global.youtube = "https://www.youtube.com/results?search_query=." //bebas asal jan hapus
+global.myweb2 = "https://www.youtube.com/results?search_query=." //bebas
+global.email = "ibrahim@gmail.com" //bebas
+global.region = "Pakistan" //bebas
+global.timezone = 'Asia/karachi' //  timezone wib
+global.premium = ['923324807634'] //premium user
+global.owner = ["923229931076"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "923229931076" // nomor wa kalian
+global.ownernomerr = "+923229931076" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome = "https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© Alphabot-Mdོ' //sticker wm ubah
-global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm ganti nama kalian
+global.packname = '© I𝚋𝚛𝚊𝚑𝚒𝚖ོ' //sticker wm ubah
+global.author = 'Created By I𝚋𝚛𝚊𝚑𝚒𝚖ོ' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
-global.multiplier = 69
+global.multiplier = 109
 global.limitawal = {
    premium: "10000",
-   free: 100
+   free: 0
 }
 
 global.adventureRPG = 'https://telegra.ph/file/ff94536d69e0f4f3e7b54.jpg'
@@ -122,17 +122,17 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 global.sp = '⭔'
 global.mess = {
-   sukses: '🤗Done, Oke Desu~',
-   admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
-   botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
-   owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
-   group: 'Perintah Ini Hanya Bisa Digunakan Di Group !',
-   private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
-   bot: 'Fitur Khusus Pengguna Nomor Bot',
-   errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-   wait: '⏳ Sedang Di Proses',
-   lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
-   example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
+   sukses: '🤗Done, Ok~',
+   admin: 'This Command Can Only Be Used By Admin !',
+   botAdmin: 'This command can only be used when the bot becomes admin !',
+   owner: 'This command can only be used by the owner !',
+   group: 'This command can only be used in groups !',
+   private: 'This command can only be used in private !',
+   bot: 'Special Features for Bot Number Users',
+   errtoimg: 'Sorry, Currently Not Supporting Gif Sticker !',
+   wait: '⏳ Being processed',
+   lockCmd: 'Features Not Activated By Owner!',
+   example1: 'Welcome @user Di Group @subject Dont forget to read the rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 
 let file = require.resolve(__filename)
