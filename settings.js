@@ -13,7 +13,7 @@ global.keysxxx = ibrahim[Math.floor(ibrahim.length * Math.random())]
 
 // Free apikey (Apikey expired silahkan login terus ganti V12 dgn apikey lu)
 global.APIKeys = {
-   'https://api.zeeoneofc.my.id': '${global.keysxxx}', // 👉 login https://api.zeeoneofc.xyz to get apikey
+   'https://api.zeeoneofc.my.id':`${global.keysxxx}`, // 👉 login https://api.zeeoneofc.xyz to get apikey
 }
 
 // setting 
